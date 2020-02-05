@@ -1,0 +1,3147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    tools:context=".sub_activity.AllHolidayActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/search_bar"
+        android:background="@color/colorPrimary"
+        app:theme="@style/AppTheme.Toolbar">
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_bar"
+        android:layout_margin="10dp"
+        android:scrollbars="none"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="ScrollViewSize,UselessParent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="2019 නිවාඩු දින"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="January"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="15 - දෙමළ තෛපොංගල් දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="20 - දුරුතු පුර පසළොස්වක පෝය දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ffff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ffff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="February"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="04 - ජාතික නිදහස් දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="19 - නවම් පුර පසළොස්වක පෝය දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ffff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ffff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="March"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="04 - මහා ශිව රාත්‍රී දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="20 - මැදින් පුර පසළොස්වක පෝය දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ffff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ffff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="April"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="13 - සිංහල හා දෙමළ අලුත් අවුරුදු දිනයට පෙර දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="14 - සිංහල හා දෙමළ අලුත් අවුරුදු දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="19 - බක් පුර පසළොස්වක පෝය දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ffff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ffff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="19 - මහා සිකුරාදා දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="May"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="01 - ලෝක කම්කරු දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="18 - වෙසක් පුර පසළොස්වක පෝය දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ffff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ffff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="19 - වෙසක් පුර පසළොස්වක පෝය දිනයට පසු දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="June"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="05 - ඊද්-උල්-ෆීතර්(රාමසාන් දිනය)"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,TooManyViews,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded,TooManyViews" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="16 - පොසොන් පුර පසළොස්වක පෝය දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ffff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ffff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="July"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="16 - ඇසළ පුර පසළොස්වක පෝය දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ffff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ffff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="August"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="12 - ඊද්-උල්-අල්හා (හජ්ජි දිනය)"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="14 - නිකිණි පුර පසළොස්වක පෝය දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ffff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ffff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="September"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="13 - බිනර පුර පසළොස්වක පෝය දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ffff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ffff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="October"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="13 - වප් පුර පසළොස්වක පෝය දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ffff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ffff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="27 - දීපවාලී උත්සව දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="November"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="10 - මිලාද්-උන්-නබී(නබී නායකතුමාගේ උපන් දිනය)"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="12 - ඉල් පුර පසළොස්වක පෝය දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ffff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ffff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="December"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="11 - උඳුවප් පුර පසළොස්වක පෝය දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ffff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ffff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="25 - නත්තල් දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="2020 නිවාඩු දින"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="January"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="10 - දුරුතු පුර පසළොස්වක පෝය දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ffff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ffff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="15 - දෙමළ තෛපොංගල් දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="February"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="04 - ජාතික නිදහස් දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="08 - නවම් පුර පසළොස්වක පෝය දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ffff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ffff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="21 - මහා ශිව රාත්‍රී දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="March"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="09 - මැදින් පුර පසළොස්වක පෝය දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ffff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ffff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="April"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="07 - බක් පුර පසළොස්වක පෝය දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ffff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ffff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="10 - මහා සිකුරාදා දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="13 - සිංහල හා දෙමළ අලුත් අවුරුදු දිනයට පෙර දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="14 - සිංහල හා දෙමළ අලුත් අවුරුදු දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="May"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="01 - ලෝක කම්කරු දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="07 - වෙසක් පුර පසළොස්වක පෝය දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ffff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ffff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="08 - වෙසක් පුර පසළොස්වක පෝය දිනයට පසු දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="24 - ඊද්-උල්-ෆීතර්(රාමසාන් දිනය)"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,TooManyViews,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded,TooManyViews" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="June"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="05 - පොසොන් පුර පසළොස්වක පෝය දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ffff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ffff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="July"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="04 - ඇසළ පුර පසළොස්වක පෝය දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ffff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ffff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="31 - ඊද්-උල්-අල්හා (හජ්ජි දිනය)"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="August"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="03 - නිකිණි පුර පසළොස්වක පෝය දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ffff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ffff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="September"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="01 - බිනර පුර පසළොස්වක පෝය දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ffff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ffff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="October"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="01 - අදි වප් පුර පසළොස්වක පෝය දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ffff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ffff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="29 - මිලාද්-උන්-නබී(නබී නායකතුමාගේ උපන් දිනය)"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="30 - වප් පුර පසළොස්වක පෝය දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ffff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ffff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="November"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="14 - දීපවාලී උත්සව දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="29 - ඉල් පුර පසළොස්වක පෝය දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ffff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ffff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="December"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="25 - නත්තල් දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="29 - උඳුවප් පුර පසළොස්වක පෝය දිනය"
+                    android:textColor="#000000"
+                    android:layout_gravity="top|center"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,UnknownIdInLayout" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#0000ff"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#0000ff"
+                    tools:ignore="RedundantNamespace,RtlHardcoded" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#00ff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#00ff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ff0000"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ff0000"
+                    tools:ignore="RedundantNamespace" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="#ffff00"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="10dp"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ffff00"
+                    tools:ignore="RedundantNamespace,UnusedAttribute" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/adBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            app:adSize="BANNER"
+            app:adUnitId="@string/banner_ad_id"/>
+    </LinearLayout>
+</RelativeLayout>

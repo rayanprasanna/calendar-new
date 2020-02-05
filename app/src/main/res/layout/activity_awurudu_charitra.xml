@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="@drawable/april"
+    tools:context=".sub_activity.AwuruduCharitraActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/search_bar"
+        android:background="@color/colorPrimary"
+        app:theme="@style/AppTheme.Toolbar">
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/search_bar"
+        android:gravity="center"
+        tools:ignore="UselessParent">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#90000000"
+            android:textStyle="normal"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:text="නව සඳ බැලීම"
+            android:textSize="20sp"
+            android:id="@+id/new_moon_time"
+            tools:ignore="HardcodedText" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#90000000"
+            android:layout_marginHorizontal="10dp"
+            android:textStyle="normal"
+            android:id="@+id/wash_time"
+            android:textColor="@android:color/white"
+            android:text="පරණ අවුරුද්ද සඳහා ස්නානය"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,UnusedAttribute" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#90000000"
+            android:layout_margin="10dp"
+            android:id="@+id/new_year_time"
+            android:textStyle="normal"
+            android:textColor="@android:color/white"
+            android:text="අලුත් අවුරුදු උදාව"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#90000000"
+            android:layout_marginHorizontal="10dp"
+            android:textStyle="normal"
+            android:id="@+id/good_"
+            android:textColor="@android:color/white"
+            android:text="පුණ්‍ය කාලය"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,UnusedAttribute" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#90000000"
+            android:layout_margin="10dp"
+            android:textStyle="normal"
+            android:id="@+id/cook_"
+            android:textColor="@android:color/white"
+            android:text="ආහාර පිසීම"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#90000000"
+            android:layout_marginHorizontal="10dp"
+            android:textStyle="normal"
+            android:id="@+id/eat_"
+            android:textColor="@android:color/white"
+            android:text="වැඩ ඇල්ලීම, ගනුදෙනු කිරීම හා ආහාර අනුභවය"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,UnusedAttribute" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#90000000"
+            android:layout_margin="10dp"
+            android:textStyle="normal"
+            android:id="@+id/hair_oil_time"
+            android:textColor="@android:color/white"
+            android:text="හිසතෙල් ගෑම"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#90000000"
+            android:layout_marginHorizontal="10dp"
+            android:textStyle="normal"
+            android:textColor="@android:color/white"
+            android:text="රැකීරක්ෂා සඳහා පිටත්ව යාම"
+            android:id="@+id/work_"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,UnusedAttribute" />
+        <!--<Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#90000000"
+            android:layout_margin="10dp"
+            android:textStyle="normal"
+            android:id="@+id/planting_"
+            android:textColor="@android:color/white"
+            android:text="පැළ සිටුවීම"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />-->
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/adBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            app:adSize="BANNER"
+            app:adUnitId="@string/banner_ad_id"/>
+    </LinearLayout>
+</RelativeLayout>

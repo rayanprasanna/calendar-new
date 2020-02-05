@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "837272669717",
+    "firebase_url": "https://slcalendar.firebaseio.com",
+    "project_id": "slcalendar",
+    "storage_bucket": "slcalendar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837272669717:android:438e2e2217658c8c",
+        "android_client_info": {
+          "package_name": "com.univeersl.slcalendar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837272669717-chgnagpl8tjqp8enildsi1cdk8ttigfi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.univeersl.slcalendar",
+            "certificate_hash": "5e09d4b430fc1bdcc34e12cb86a4790ebe5a6c87"
+          }
+        },
+        {
+          "client_id": "837272669717-logjh51815o98tp3fbqvoi4luri05nu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT5TCKU9WQt0kK6ngsmve89PVXJ-zUoSs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837272669717-logjh51815o98tp3fbqvoi4luri05nu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837272669717:android:30557323d9aa6567",
+        "android_client_info": {
+          "package_name": "com.universl.ryan.calendar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837272669717-v6tb1a90560csmcevhohqfnaqij16j7e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.universl.ryan.calendar",
+            "certificate_hash": "9bd6581cea6c81d5827385cfbee149e95e9ed4a9"
+          }
+        },
+        {
+          "client_id": "837272669717-logjh51815o98tp3fbqvoi4luri05nu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT5TCKU9WQt0kK6ngsmve89PVXJ-zUoSs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837272669717-logjh51815o98tp3fbqvoi4luri05nu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837272669717:android:726f4b2f708acb4e",
+        "android_client_info": {
+          "package_name": "com.universl.slcalendar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837272669717-ffnij37p0ssarc9pt1jkk0f18dcodl8i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.universl.slcalendar",
+            "certificate_hash": "b7ad86d7d45cc3ff74ef2b4efcf66ef08e534096"
+          }
+        },
+        {
+          "client_id": "837272669717-logjh51815o98tp3fbqvoi4luri05nu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT5TCKU9WQt0kK6ngsmve89PVXJ-zUoSs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837272669717-logjh51815o98tp3fbqvoi4luri05nu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

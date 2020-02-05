@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/april_back"
+    tools:context=".sub_activity.DisplayAwuruduCharitraActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/search_bar"
+        android:background="@color/colorPrimary"
+        app:theme="@style/AppTheme.Toolbar">
+    </android.support.v7.widget.Toolbar>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_bar"
+        android:textSize="20sp"
+        android:id="@+id/awurudu_charithra"
+        android:layout_margin="5dp"
+        android:textColor="@android:color/black"
+        android:textStyle="normal"
+        android:text="වැඩ ඇල්ලීම, ගනුදෙනු කිරීම හා ආහාර අනුභවය"
+        tools:ignore="HardcodedText" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/image"
+        android:background="@drawable/eat"
+        android:layout_marginHorizontal="10dp"
+        android:layout_below="@id/awurudu_charithra"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription,UnusedAttribute" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/charitra_text"
+        android:layout_below="@id/image"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="#90ffffff"/>
+    <LinearLayout
+        android:id="@+id/adBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            app:adSize="BANNER"
+            app:adUnitId="@string/banner_ad_id"/>
+    </LinearLayout>
+</RelativeLayout>
